@@ -1,0 +1,80 @@
+/* Basic resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Layout */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 0.5em;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #job-search {
+    margin: 2em 0;
+    text-align: center;
+  }
+  
+  #job-search form {
+    display: inline-block;
+  }
+  
+  #search-keyword {
+    padding: 0.5em;
+    width: 300px;
+  }
+  
+  button {
+    padding: 0.5em;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #job-listings {
+    max-width: 800px;
+    margin: 2em auto;
+  }
+  
+  .job {
+    background: #f4f4f4;
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ccc;
+  }
+  
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+  }  

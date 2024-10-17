@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Remote Jobs</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Remote Job Board</h1>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/jobs">Browse Jobs</a></li>
+        <li><a href="/post-job">Post a Job</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="job-search">
+    <h2>Find Your Remote Job</h2>
+    <form id="search-form">
+      <input type="text" id="search-keyword" placeholder="Search jobs..." required>
+      <button type="submit">Search</button>
+    </form>
+  </section>
+
+  <section id="job-listings">
+    <h2>Available Remote Jobs</h2>
+    <div class="job">
+      <h3>Frontend Developer</h3>
+      <p><strong>Company:</strong> Tech Corp</p>
+      <p><strong>Location:</strong> Remote</p>
+      <p><strong>Type:</strong> Full-time</p>
+      <a href="/apply/1">Apply Now</a>
+    </div>
+    <!-- More job listings -->
+  </section>
+
+  <footer>
+    <p>© 2024 Remote Jobs</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
